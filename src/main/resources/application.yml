@@ -1,1 +1,9 @@
+spring:
+  datasource:
+    url: ${DB_HOST}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
 
